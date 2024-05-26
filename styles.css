@@ -73,8 +73,6 @@ html {
 
 .wrapper {
   margin: 0 auto;
-  display: flex;
-  align-items: center;
   max-width: 1440px;
 }
 
@@ -83,6 +81,11 @@ html {
   padding: 20px;
   color: #fff;
   background-color: var(--black-clr);
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
 }
 
 .brand-logo {
@@ -116,10 +119,12 @@ html {
   height: 660px;
 }
 
+.hero__wrapper {
+  padding-top: 220px;
+}
+
 .hero-text {
   width: 600px;
-  margin-top: 220px;
-
   background-color: #0c0c0e;
   padding: 35px 40px;
 
