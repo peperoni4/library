@@ -94,11 +94,11 @@ html {
   font-weight: 400;
 }
 
-.navigation {
+.header__navigation {
   margin-left: auto;
 }
 
-.navigation-links {
+.navigation {
   display: flex;
   gap: 30px;
   font-family: "Inter";
@@ -135,4 +135,16 @@ html {
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   text-align: center;
+}
+
+.circle {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--circle-active-clr, #0c0c0e);
+}
+
+.circle.active {
+  --circle-active-clr: #bb945f;
 }
