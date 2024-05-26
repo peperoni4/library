@@ -107,3 +107,27 @@ html {
   color: #fff;
   font-size: 2rem;
 }
+
+.hero {
+  background-image: url("./img/Welcome.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: 660px;
+}
+
+.hero-text {
+  width: 600px;
+  margin-top: 220px;
+
+  background-color: #0c0c0e;
+  padding: 35px 40px;
+
+  color: #fff;
+  font-family: "Forum";
+  font-size: 4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  text-align: center;
+}
