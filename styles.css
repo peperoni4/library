@@ -85,6 +85,9 @@ html {
 }
 
 .brand-logo {
+  font-family: "Forum";
+  font-size: 3rem;
+  font-weight: 400;
 }
 
 .navigation {
@@ -94,6 +97,9 @@ html {
 .navigation-links {
   display: flex;
   gap: 30px;
+  font-family: "Inter";
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 .navigation__link {
