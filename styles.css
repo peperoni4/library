@@ -53,3 +53,50 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --black-clr: #0c0c0e;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  display: flex;
+  max-width: 1440px;
+}
+
+/* HEADER */
+.header {
+  padding: 20px;
+  color: #fff;
+  background-color: var(--black-clr);
+}
+
+.brand-logo {
+}
+
+.navigation {
+  margin-left: auto;
+}
+
+.navigation-links {
+  display: flex;
+  gap: 30px;
+}
+
+.navigation__link {
+  color: #fff;
+  font-size: 2rem;
+}
