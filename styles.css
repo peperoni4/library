@@ -171,9 +171,23 @@ section {
 }
 
 .section-subheading {
+  font-family: "Forum", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+}
+
+.section-description {
   font-family: "Inter", sans-serif;
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: var(--text-bold, 400);
+}
+
+.section-text {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: var(--text-bold, 400);
+  letter-spacing: 0.2rem;
 }
 
 .about__wrapper {
@@ -224,4 +238,115 @@ section {
 
 .circle.active {
   --circle-active-clr: #bb945f;
+}
+
+/* FAVORITES */
+.favorites__seasons {
+  display: flex;
+  gap: 90px;
+  margin: 40px 0;
+}
+
+.season {
+  display: flex;
+  align-items: center;
+}
+
+.season input {
+  margin-right: 20px;
+}
+
+.season input:checked {
+  accent-color: #0c0c0e;
+  & + label {
+    --text-bold: bold;
+  }
+}
+
+.text-bold {
+  --text-bold: bold;
+}
+
+.favorites__items {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.row {
+  display: flex;
+  gap: 260px;
+}
+
+.card {
+  width: 550px;
+  position: relative;
+  border: 1px solid #000;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+}
+
+.card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.card__book-description {
+  width: 355px;
+  line-height: 40px;
+}
+
+.card__book-cover {
+  position: absolute;
+  right: -10%;
+  /* because border-box */
+  bottom: -1px;
+}
+
+.card__staff-picks {
+  position: relative;
+}
+
+.card__staff-picks::after {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 1px;
+  background-color: #bb945f;
+  left: 0;
+  bottom: 0;
+}
+
+.card__book-name {
+  text-transform: uppercase;
+}
+
+.card__book-author,
+.card__book-description {
+  text-transform: capitalize;
+}
+
+.btn {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #0c0c0e;
+
+  background-color: #fff;
+  padding: 9px 27px;
+
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-top: auto;
+}
+
+.btn.btn-activated {
+  color: #bb945f;
+  border-color: #bb945f;
 }

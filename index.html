@@ -53,7 +53,7 @@
     <section class="about">
       <div class="wrapper about__wrapper">
         <h2 class="section-heading">About</h2>
-        <p class="section-subheading about__subheading">
+        <p class="section-description about__subheading">
           The Brooklyn Library is a free workspace, a large number of books and
           a cozy coffee shop inside
         </p>
@@ -93,100 +93,127 @@
     <section class="favorites">
       <div class="wrapper">
         <h2 class="section-heading">Favorites</h2>
-        <h3 class="section-subheading">Pick favorites of season</h3>
+        <h3 class="section-description text-bold">Pick favorites of season</h3>
         <div class="favorites__seasons">
           <div class="season">
-            <input type="radio" name="season" id="winter" />
-            <label for="winter">Winter</label>
+            <input type="radio" name="season" id="winter" checked />
+            <label class="section-description" for="winter">Winter</label>
           </div>
           <div class="season">
             <input type="radio" name="season" id="spring" />
-            <label for="spring">Spring</label>
+            <label class="section-description" for="spring">Spring</label>
           </div>
           <div class="season">
             <input type="radio" name="season" id="summer" />
-            <label for="summer">Summer</label>
+            <label class="section-description" for="summer">Summer</label>
           </div>
           <div class="season">
             <input type="radio" name="season" id="autumn" />
-            <label for="autumn">Autumn</label>
+            <label class="section-description" for="autumn">Autumn</label>
           </div>
         </div>
         <div class="favorites__items">
           <div class="row">
             <div class="card">
-              <h2 class="card__">Staff Picks</h2>
-              <h3 class="card__book-name">The Book Eaters</h3>
-              <h3 class="card__book-author">By Sunyi Dean</h3>
-              <p class="card__book-description">
-                An unusual sci-fi story about a book eater woman who tries
-                desperately to save her dangerous mind-eater son from tradition
-                and certain death. Complete with dysfunctional family values,
-                light Sapphic romance, and a strong, complex protagonist. Not
-                for the faint of heart.
-              </p>
-              <img
-                class="card__book-cover"
-                src="./img/favorites/book_eaters.jpg"
-                alt="Book eaters cover"
-              />
+              <div class="card-content">
+                <h3 class="card__staff-picks section-subheading">
+                  Staff Picks
+                </h3>
+                <p class="card__book-name section-text text-bold">
+                  The Book Eaters
+                </p>
+                <p class="card__book-author section-text text-bold">
+                  By Sunyi Dean
+                </p>
+                <p class="card__book-description section-text">
+                  An unusual sci-fi story about a book eater woman who tries
+                  desperately to save her dangerous mind-eater son from
+                  tradition and certain death. Complete with dysfunctional
+                  family values, light Sapphic romance, and a strong, complex
+                  protagonist. Not for the faint of heart.
+                </p>
+                <img
+                  class="card__book-cover"
+                  src="./img/favorites/book_eaters.jpg"
+                  alt="Book eaters cover"
+                />
+              </div>
               <button class="btn">Buy</button>
             </div>
             <div class="card">
-              <h2 class="card__">Staff Picks</h2>
-              <h3 class="card__book-name">The Book Eaters</h3>
-              <h3 class="card__book-author">By Sunyi Dean</h3>
-              <p class="card__book-description">
-                An unusual sci-fi story about a book eater woman who tries
-                desperately to save her dangerous mind-eater son from tradition
-                and certain death. Complete with dysfunctional family values,
-                light Sapphic romance, and a strong, complex protagonist. Not
-                for the faint of heart.
-              </p>
-              <img
-                class="card__book-cover"
-                src="./img/favorites/book_eaters.jpg"
-                alt="Book eaters cover"
-              />
+              <div class="card-content">
+                <h3 class="card__staff-picks section-subheading">
+                  Staff Picks
+                </h3>
+                <p class="card__book-name section-text text-bold">Cackle</p>
+                <p class="card__book-author section-text text-bold">
+                  By Rachel Harrison
+                </p>
+                <p class="card__book-description section-text">
+                  Are your Halloween movies of choice The Witches of Eastwick
+                  and Practical Magic? Look no further than here - where a woman
+                  recovering from a breakup moves to a quaint town in upstate
+                  New York and befriends a beautiful witch.
+                </p>
+                <img
+                  class="card__book-cover"
+                  src="./img/favorites/cackle.jpg"
+                  alt="Book eaters cover"
+                />
+              </div>
               <button class="btn">Buy</button>
             </div>
           </div>
           <div class="row">
             <div class="card">
-              <h2 class="card__">Staff Picks</h2>
-              <h3 class="card__book-name">The Book Eaters</h3>
-              <h3 class="card__book-author">By Sunyi Dean</h3>
-              <p class="card__book-description">
-                An unusual sci-fi story about a book eater woman who tries
-                desperately to save her dangerous mind-eater son from tradition
-                and certain death. Complete with dysfunctional family values,
-                light Sapphic romance, and a strong, complex protagonist. Not
-                for the faint of heart.
-              </p>
-              <img
-                class="card__book-cover"
-                src="./img/favorites/book_eaters.jpg"
-                alt="Book eaters cover"
-              />
+              <div class="card-content">
+                <h3 class="card__staff-picks section-subheading">
+                  Staff Picks
+                </h3>
+                <p class="card__book-name section-text text-bold">
+                  Dante: Poet of the Secular World
+                </p>
+                <p class="card__book-author section-text text-bold">
+                  By Erich Auerbachh
+                </p>
+                <p class="card__book-description section-text">
+                  Auerbach's engaging book places the 'Comedy' within the
+                  tradition of epic, tragedy, and philosophy in general, arguing
+                  for Dante's uniqueness as one who raised the individual and
+                  his drama of soul into something of divine significance—an
+                  inspired introduction to Dante's main themes.
+                </p>
+                <img
+                  class="card__book-cover"
+                  src="./img/favorites/dante.jpg"
+                  alt="Book eaters cover"
+                />
+              </div>
               <button class="btn">Buy</button>
             </div>
             <div class="card">
-              <h2 class="card__">Staff Picks</h2>
-              <h3 class="card__book-name">The Book Eaters</h3>
-              <h3 class="card__book-author">By Sunyi Dean</h3>
-              <p class="card__book-description">
-                An unusual sci-fi story about a book eater woman who tries
-                desperately to save her dangerous mind-eater son from tradition
-                and certain death. Complete with dysfunctional family values,
-                light Sapphic romance, and a strong, complex protagonist. Not
-                for the faint of heart.
-              </p>
-              <img
-                class="card__book-cover"
-                src="./img/favorites/book_eaters.jpg"
-                alt="Book eaters cover"
-              />
-              <button class="btn">Buy</button>
+              <div class="card-content">
+                <h3 class="card__staff-picks section-subheading">
+                  Staff Picks
+                </h3>
+                <p class="card__book-name section-text text-bold">
+                  The Last Queen
+                </p>
+                <p class="card__book-author section-text text-bold">
+                  By Clive Irving
+                </p>
+                <p class="card__book-description section-text">
+                  A timely and revelatory new biography of Queen Elizabeth (and
+                  her family) exploring how the Windsors have evolved and
+                  thrived as the modern world has changed around them.
+                </p>
+                <img
+                  class="card__book-cover"
+                  src="./img/favorites/last_queen.jpg"
+                  alt="Book eaters cover"
+                />
+              </div>
+              <button class="btn btn-activated">Own</button>
             </div>
           </div>
         </div>
