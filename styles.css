@@ -156,6 +156,7 @@ section {
   letter-spacing: 0.3rem;
   position: relative;
   margin-bottom: 60px;
+  text-align: center;
 }
 
 .section-heading::after {
