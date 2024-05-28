@@ -350,3 +350,60 @@ section {
   color: #bb945f;
   border-color: #bb945f;
 }
+
+/* COFFEE SHOP */
+
+.coffee-shop__description {
+  text-align: center;
+  letter-spacing: 0.2rem;
+  line-height: 40px;
+}
+
+.coffee-shop__menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-column__header {
+  font-family: "Forum", sans-serif;
+  font-size: 4rem;
+  font-weight: var(--text-bold, 400);
+  color: #bb945f;
+}
+
+.menu-column {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.menu-item__line {
+  display: inline-block;
+  width: 100px;
+  height: 1px;
+  background-color: #bb945f;
+  margin-left: var(--is-right-align, auto);
+}
+
+.menu-item__name,
+.menu-item__price {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: var(--text-bold, 400);
+  letter-spacing: 0.2rem;
+}
+
+.desserts {
+  --is-right-align: 0;
+  text-align: right;
+}
+
+.desserts .menu-item__name {
+  margin-left: auto;
+}
