@@ -146,7 +146,7 @@ html {
 /* ABOUT */
 
 section {
-  padding: 20px;
+  padding: 20px 20px 40px;
 }
 
 .section-heading {
@@ -181,6 +181,8 @@ section {
   font-family: "Inter", sans-serif;
   font-size: 2rem;
   font-weight: var(--text-bold, 400);
+  letter-spacing: 0.2rem;
+  line-height: 4rem;
 }
 
 .section-text {
@@ -406,4 +408,24 @@ section {
 
 .desserts .menu-item__name {
   margin-left: auto;
+}
+
+/* CONTACTS */
+
+.contacts__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__info {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.phone-info,
+.senior-staff {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
