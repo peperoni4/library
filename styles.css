@@ -275,7 +275,7 @@ section {
   gap: 40px;
 }
 
-.row {
+.favorites-items__row {
   display: flex;
   gap: 260px;
 }
