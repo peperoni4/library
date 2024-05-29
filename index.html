@@ -329,17 +329,33 @@
         <div class="layout-2-column">
           <div class="find-card">
             <h3 class="find-card__heading">Find your Library card</h3>
-            <form action="" id="check-card-form">
-              <h4 class="find-card__subheading">Brooklyn Public Library</h4>
-              <input type="text" placeholder="Reader's name" />
-              <input type="text" placeholder="Card number" />
-            </form>
-            <button class="btn" type="submit" form="check-card-form">
-              Check the card
-            </button>
+            <div class="find-card__content">
+              <form action="" id="check-card-form">
+                <h4 class="library-cards__subheading">
+                  Brooklyn Public Library
+                </h4>
+                <input
+                  class="library-cards__subheading"
+                  type="text"
+                  placeholder="Reader's name"
+                />
+                <input
+                  class="library-cards__subheading"
+                  type="text"
+                  placeholder="Card number"
+                />
+              </form>
+              <button
+                class="btn section-description"
+                type="submit"
+                form="check-card-form"
+              >
+                Check the card
+              </button>
+            </div>
           </div>
           <div class="get-card">
-            <h3 class="find-card__subheading">Get a reader card</h3>
+            <h3 class="library-cards__subheading">Get a reader card</h3>
             <p class="section-description">
               You will be able to see a reader card after logging into account
               or you can register a new account
